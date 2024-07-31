@@ -1,0 +1,20 @@
+print (" MAIOR OU MENOR - PROGRAMA 2")
+valor = 0
+maior_valor=0
+menor_valor= 9999
+
+while valor>=0:
+  valor = int(input("\n Digite um valor positivoi nteiro (ou um valor negativo para parar): "))
+  if valor >= 0:
+    if valor>maior_valor:
+      maior_valor=valor
+    if valor < menor_valor:
+      menor_valor=valor
+
+print(f"\nO maior valor informado foi {maior_valor}")
+print(f"\n O menor valor informado foi {menor_valor}")
+
+
+
+    
+  

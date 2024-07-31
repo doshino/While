@@ -1,0 +1,17 @@
+n1=0
+n2=1
+ct=0
+print ('\033[1m' + ' PROGRAMA - SEQUÊNCIA DE FIBONATTI' + '\033[0m')
+usuario=int(input("\n Caso queira FINALIZAR O PROGRAMA DIGITE '0' \n\n Digite a quantidade de valores que deseja ver da sequencia de Fibonatti: "))
+if usuario==0:
+    print('\033[1m' + ' -- PROGRAMA FINALIZADO --' + '\033[0m')
+while usuario>0 and ct != usuario:
+  if ct==0:
+    print(0)
+  if (usuario>0):
+    numero=n1
+    n1+=n2
+    print(  n1)
+    n2=numero
+  
+  ct+=1

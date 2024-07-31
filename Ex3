@@ -1,0 +1,9 @@
+contador = 1
+print ("\n NUMEROS IMPARES ENTRE 1 E 50!")
+
+while contador <= 50:
+# o % é o resto da divisão de 2 precisa ser diferente de 0 e esta entre 1 e 50:
+    if contador % 2 != 0:
+        print(" Numero impar entre 1 e 50:",contador)
+
+    contador += 1

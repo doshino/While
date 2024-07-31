@@ -1,0 +1,12 @@
+n1 = 0
+maior = 0
+contador = 0
+print (' Qual é o MAIOR?')
+while contador < 5:
+  n1 = int(input(" Digite um valor inteiro: "))
+  if maior < n1:
+    maior = n1
+  else:
+    maior = maior
+  contador += 1
+print('\033[1m' + '\n O maior valor inserido foi: ' + '\033[0m', maior)
